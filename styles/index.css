@@ -1,0 +1,41 @@
+.login-btn{
+    background: black;
+    color: #FFF;
+    padding: 5px 20px !important;
+    border-radius: 20px !important;
+}
+.signup-btn{
+    background: rgb(247,23,79);
+    background: linear-gradient(90deg, rgba(247,23,79,1) 0%, #f1502c 65%, #f1502c 100%);
+    padding: 7px 30px !important;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.nav-item{
+    margin: 0 15px !important;
+}
+.nav-link{
+    color: black;
+    font-weight: 800;
+}
+.nav-background{
+    background: rgb(247,23,79);
+    background: linear-gradient(90deg, rgba(247,23,79,1) 0%, #f1502c 65%, #f1502c 100%);
+}
+.bg-image{
+    background-image: url("../images/couple.jpg");
+    width: 100%;
+    height: 470px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.welcome-text{
+    padding-top: 40px;
+}
+.welcome-text h1{
+    line-height: 70px;
+    font-weight: bolder;
+    font-size: 50px;
+}
