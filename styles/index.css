@@ -39,3 +39,22 @@
     font-weight: bolder;
     font-size: 50px;
 }
+.quote {
+    border:none;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    margin-bottom:-30px;
+    }
+    
+    
+.quote:before { 
+        content: open-quote;
+        font-weight: bold;
+        font-size:100px;
+        color:rgb(247,23,79);
+    } 
+
+    .testmonials{
+        background: linear-gradient(90deg, rgba(247,23,79,1) 0%, #f1502c 65%, #f1502c 100%);;
+    }
+    
+    
