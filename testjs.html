@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript</title>
+</head>
+<body>
+   <!-- <script src="./js/test.js"></script> -->
+   <script>
+    var d = new Date();
+    document.write(d)
+    theDay=d.getDay();
+    switch (theDay) {
+        case 5:
+            document.write("finally Friday")
+            
+            break;
+            case 6:
+                DOCUMENT.write("Super Saturdat")
+                break;
+            case 0:
+                document.write("sleepy Suday");
+            break;
+    
+        default:
+            document.write("I am looking forward to this weekend!")
+            break;
+    }
+    function show_prompt(){
+        var name =prompt("Please enter your name","harry Potter");
+        if(name!=null && name !=""){
+            document.write("hello"+name+"!how are ")
+        }
+    }
+
+   </script>
+   <input type="button" onclick="show_prompt()" value="show prompt box"/>
+</body>
+</html>
