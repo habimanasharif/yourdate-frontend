@@ -1,5 +1,5 @@
 body{
-  background-color: #1cbb9b;
+  background: linear-gradient(90deg, rgba(247,23,79,1) 0%, #f1502c 65%, #f1502c 100%);
 }
 .login-box{
   position:relative;
@@ -18,7 +18,7 @@ box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.33);
   color: #00415d;
   margin: 5px 5px 10px 5px;
   padding-bottom:10px;
-  border-bottom: 1px solid #eee;
+ /* border-bottom: 1px solid #eee; */
   text-align:center;
   height:28px;
 }
@@ -40,23 +40,24 @@ box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.33);
 .social-login{
   position:relative;
   float: left;
-  width: 100%;
+  width: 50%;
   height:auto;
+  margin-left:140px;
   padding: 10px 0 15px 0;
-  border-bottom: 1px solid #eee;
+  /* border-bottom: 1px solid #eee; */
 }
 .social-login a{
   position:relative;
   float: left;
-  width:calc(40% - 8px);
+  width:auto;
   text-decoration: none;
   color: #fff;
   border: 1px solid rgba(0,0,0,0.05);
-  padding: 12px;
+  padding: 4px;
   border-radius: 2px;
   font-size: 12px;
   text-transform: uppercase;
-  margin: 0 3%;
+  margin: 0 1%;
   text-align:center;
 }
 .social-login a i{
@@ -118,4 +119,21 @@ box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.33);
   text-decoration: underline;
   color: #888;
   font-size: 0.75rem;
+}
+.loginbackground{
+  background: url("../images/teen.webp");
+  min-height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.row{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.bg-white{
+  background-color: #fff;
+}
+.login{
+  border-radius: 20px;
 }
