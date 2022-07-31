@@ -11,52 +11,52 @@ $('a[href*=#]').click(function(){
       {
         name: 'Linda',
         age: 25,
-        img: "http://i40.tinypic.com/ofxe21.jpg"
+        img: "https://i0.wp.com/pbs.twimg.com/media/DxYg3KbXgAYouse.jpg?resize=960%2C1200&ssl=1"
       },
       {
         name: 'Lisa',
         age: 20,
-        img: "http://i40.tinypic.com/ofxe21.jpg"
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwlmBu2nQz_P8Yyx7JK90TupfWbFDlP5caxg&usqp=CAU"
       },
       {
         name: 'Sandra',
         age: 18,
-        img: "http://i40.tinypic.com/ofxe21.jpg"
+        img: "https://www.informationng.com/wp-content/uploads/2018/04/top-10-states-in-nigeria-with-the-most-beautiful-girls-1.jpg"
       },
       {
         name: 'Chloe',
         age: 18,
-        img: "http://i40.tinypic.com/ofxe21.jpg"
+        img: "https://i.pinimg.com/736x/43/93/93/4393933003940a763b0197aeb1dc742b.jpg"
       },
       {
         name: 'Alexa',
         age: 23,
-        img: "http://i40.tinypic.com/ofxe21.jpg"
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXY3vh0Kaojn9zy3zpXSfJCyOKBlBJ5B-iiQ&usqp=CAU"
       },
       {
         name: 'Maria',
         age: 21,
-        img: "http://i40.tinypic.com/ofxe21.jpg"
+        img: "https://qph.cf2.quoracdn.net/main-qimg-bec2644b8a0256641ee2faa1ee6d8f45-lq"
       },
       {
         name: 'Emma',
         age: 24,
-        img: "http://i40.tinypic.com/ofxe21.jpg"
+        img: "https://i.pinimg.com/originals/ca/f8/c7/caf8c7c4b2dc42fcc3e740158d2b1d50.png"
       },
       {
         name: 'Sara',
         age: 18,
-        img: "http://i40.tinypic.com/ofxe21.jpg"
+        img: "https://images.unsplash.com/photo-1552954277-0c45bd503b54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmVhdXRpZnVsJTIwZ2lybHN8ZW58MHx8MHx8&w=1000&q=80"
       },
       {
         name: 'Lara',
         age: 22,
-        img: "http://i40.tinypic.com/ofxe21.jpg"
+        img: "https://i.pinimg.com/736x/cf/92/8a/cf928abadcaa685d34f4635fe06d0fdc.jpg"
       }
     ],   
     add: function(){
       var random =     this.people[Math.floor(Math.random() * this.people.length)];
-      this.wrap.append("<div class='person'><img alt='" + random.name + "' src='" + random.img + "' /><span><strong>" + random.name + "</strong>, " + random.age + "</span></div>");
+      this.wrap.append("<div class='person'><div style='"+" background-image:url(" + random.img + ")"+"' class='" +"uimage"+ "' /><span><strong>" + random.name + "</strong>, " + random.age + "</span></div>");
     }
   }
   

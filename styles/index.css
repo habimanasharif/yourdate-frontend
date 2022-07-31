@@ -58,4 +58,6 @@
         background: linear-gradient(90deg, rgba(247,23,79,1) 0%, #f1502c 65%, #f1502c 100%);;
     }
     
-    
+    .navbar{
+        z-index: 100;
+    }

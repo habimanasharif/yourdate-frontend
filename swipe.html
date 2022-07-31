@@ -9,43 +9,73 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/swipe.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg nav-background shadow">
-            <div class="container">
-                <a class="navbar-brand" href="#">YOURDATE</a>
-                <div class="" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Learn</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Support</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-
-
-
-                    </ul>
+    
+    <section class="mt-3">
+        <div class="col-4">
+            <div class="side-bar bg-white">
+                <header>
+                    <nav class="navbar navbar-expand-lg nav-background shadow">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">YOURDATE</a>
+                            <div class="" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">  <img  class="icon"  src="./images/svg/grid-outline.svg" alt="" srcset="">  </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"> <img  class="icon" src="./images/svg/compass-outline.svg" alt=""></a>
+                                    </li>
+            
+            
+            
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </nav>
+                </header>
+                <div class="side-content">
+                <h4>Welcome to Yourdate</h4>
+                <p>My Vibes</p>
+                <div class="row">
+                    <div class="col-6">
+                    <div class="card card1">
+                      <div class="content">
+                        <h2 class="title">Free To Night</h2>
+                        <p class="copy">Down for something spotaneous</p>
+                        <button class="btn">Discover</button>
+                      </div>
+                    </div>
                 </div>
-                <form class="d-flex" role="search">
-                    <!-- <span class="btn signup-btn">SignUp</span> -->
-                    <a href="/login.html">
-                        <button class="btn login-btn" type="submit">Login</button>
-                    </a>
+                <div class="col-6">
+                    <div class="card card2">
+                      <div class="content">
+                        <h2 class="title">Let's Be Friends</h2>
+                        <p class="copy">May be even bestie or more</p>
+                        <button class="btn">Discover</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-3">
+                    <div class="card card3">
+                      <div class="content">
+                        <h2 class="title">Coffe Date.</h2>
+                        <p class="copy">Take me to your fevorite cafe</p>
+                        <button class="btn">Discover</button>
+                      </div>
+                    </div>
+                </div>
+                    
+                </div>
             </div>
-        </nav>
-    </header>
-    <section class="mt-5">
-         
+            </div>
+        </div>
+         <div class="col-6 mt-4">
           <div id="people"></div>
           <div id="control">
             <div class="button no">
@@ -57,7 +87,7 @@
             </div>
           </nav>
         </div>
-      
+    </div>
       
       
     </section>
