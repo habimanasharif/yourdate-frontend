@@ -11,7 +11,7 @@ if ($conn){
 }else{
     $connected="byanze";
 }
-$sql=mysqli_query($conn,"SELECT * FROM members where email='hdidiersharif'");
+$sql=mysqli_query($conn,"SELECT * FROM members where email='$emai'");
 if(mysqli_num_rows($sql)>0)
 {
     echo "Email Id Already Exists"; 

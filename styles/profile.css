@@ -18,6 +18,7 @@ body {
   background: #eceff1;
   padding: 0 0 1rem;
   position: relative;
+  overflow-y: scroll;
 }
 
 .form-header {

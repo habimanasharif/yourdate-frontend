@@ -43,32 +43,34 @@
     </header>
 
     <section>
+        <form action="./php/update.php" method="post">
     <div class="wrapper">
         <div class="form-header">Edit Profile<i class="fa fa-times close"></i></div>
         <div class="form-grp">
           <label>Full name</label>
-          <input type="text" placeholder="Felix Quoka"/>
+          <input type="text" placeholder="fullname" name="fullname" />
         </div>
         <div class="form-grp">
             <label>Username</label>
-            <input type="text" placeholder="Felix Quoka"/>
+            <input type="text" placeholder="Username" name="username"/>
           </div>
         <div class="form-grp">
             <label>Email</label>
-            <input type="text" placeholder="email@example.com"/>
+            <input type="email" placeholder="email" name="email"/>
         </div>
         <div class="form-grp">
           <label>Location</label>
-          <input type="text" placeholder="Earth"/>
+          <input type="text" placeholder="location" name="location"/>
         </div>
         <div class="form-grp">
             <label>Bio</label>
-            <input type="text" placeholder="Felix Quoka"/>
+            <input type="textarea" placeholder="Bio" name="bio"/>
           </div>
         <div class="form-grp">
           <input type="submit" value="Update profile"/>
         </div>
       </div>
+    </form>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
